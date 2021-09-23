@@ -2,21 +2,12 @@ import 'package:binary_calculator/domain/use_cases/converter.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('0-adjustment', () {
-    final result = Converter.adjustValue("0", 1);
-    expect(result, "1");
-  });
+  // Sigue las instrucciones del instructor para crear los siguientes tests
+  //'0-adjustment'
 
-  test('non-0-adjustment', () {
-    final result = Converter.adjustValue("12", 3);
-    expect(result, "123");
-  });
+ //'non-0-adjustmen'
 
-  test('binary-to-decimal', () {
-    expect(Converter.bin2dec("111"), "7");
-  });
+ //'binary-to-decimal'
 
-  test('decimal-to-binary', () {
-    expect(Converter.dec2bin("7"), "111");
-  });
+ //'decimal-to-binary'
 }
