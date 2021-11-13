@@ -53,6 +53,7 @@ class _State extends State<Bin2Dec> {
                 children: <Widget>[
                   Expanded(
                     child: Container(
+                      key: const Key('1'),
                       padding: const EdgeInsets.all(8.0),
                       child: MaterialButton(
                         color: Theme.of(context).primaryColor,
@@ -72,6 +73,7 @@ class _State extends State<Bin2Dec> {
                   ),
                   Expanded(
                     child: Container(
+                      key: const Key('0'),
                       padding: const EdgeInsets.all(8.0),
                       child: MaterialButton(
                         color: Theme.of(context).primaryColor,
@@ -94,6 +96,7 @@ class _State extends State<Bin2Dec> {
           Expanded(
             flex: 1,
             child: Container(
+              key: const Key('reset'),
               padding: const EdgeInsets.all(8.0),
               child: MaterialButton(
                 color: Theme.of(context).colorScheme.secondary,

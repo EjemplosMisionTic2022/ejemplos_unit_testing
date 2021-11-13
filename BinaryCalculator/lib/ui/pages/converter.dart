@@ -52,7 +52,11 @@ class _ConverterState extends State<Converter> {
                 borderRadius: BorderRadius.circular(4.00),
               ),
               child: MaterialButton(
-                  child: Text(_buttonText), onPressed: (){_swapWidget();}),
+                  key: const Key("switch"),
+                  child: Text(_buttonText),
+                  onPressed: () {
+                    _swapWidget();
+                  }),
             ),
           ),
           Expanded(child: _widget),

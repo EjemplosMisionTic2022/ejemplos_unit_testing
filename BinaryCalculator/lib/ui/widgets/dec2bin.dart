@@ -56,6 +56,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("1"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "1",
@@ -74,6 +75,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("2"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "2",
@@ -92,6 +94,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("3"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "3",
@@ -119,6 +122,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("4"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "4",
@@ -137,6 +141,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("5"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "5",
@@ -155,6 +160,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("6"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "6",
@@ -182,6 +188,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("7"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "7",
@@ -200,6 +207,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("8"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "8",
@@ -218,6 +226,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: MaterialButton(
+                    key: const Key("9"),
                     color: Theme.of(context).primaryColor,
                     child: const Text(
                       "9",
@@ -246,6 +255,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                       padding: const EdgeInsets.symmetric(horizontal: 4.0),
                       child: MaterialButton(
+                        key: const Key("reset"),
                         color: Theme.of(context).colorScheme.secondary,
                         onPressed: () {
                           setState(() {
@@ -266,6 +276,7 @@ class _State extends State<Dec2Bin> {
                     child: Container(
                       padding: const EdgeInsets.symmetric(horizontal: 4.0),
                       child: MaterialButton(
+                        key: const Key("0"),
                         color: Theme.of(context).primaryColor,
                         child: const Text(
                           "0",
