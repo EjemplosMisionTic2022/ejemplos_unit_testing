@@ -1,6 +1,8 @@
-# counter_app
+# Counter App
 
-A new Flutter project.
+App que registra conteos al hacer click en botón.
+
+<img src="https://user-images.githubusercontent.com/28717626/141603983-2996164a-0d8d-4a0c-9f2e-eb74214fbb06.gif" width="300" />
 
 ## Getting Started
 
