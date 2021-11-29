@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:testing_controllers/ui/controllers/name_controller.dart';
 
 class Hello extends StatefulWidget {
   const Hello({Key? key}) : super(key: key);
@@ -9,13 +11,10 @@ class Hello extends StatefulWidget {
 
 class _HelloState extends State<Hello> {
   TextEditingController controller = TextEditingController();
-  String _name = "";
+  NameController nameController = Get.find();
 
   @override
   void initState() {
-    setState(() {
-      _name = 'N/A';
-    });
     super.initState();
   }
 
@@ -26,9 +25,7 @@ class _HelloState extends State<Hello> {
   }
 
   _setName(value) {
-    setState(() {
-      _name = value;
-    });
+    nameController.setName(value);
   }
 
   @override
@@ -55,11 +52,11 @@ class _HelloState extends State<Hello> {
                 child: const Text('Set name'),
                 onPressed: () {
                   _setName(controller.text);
-                  controller.clear();
                 })
           ],
         ),
-        Text('Hello $_name', style: Theme.of(context).textTheme.headline4)
+        Obx(() => Text('Hello ${nameController.name}',
+            style: Theme.of(context).textTheme.headline4))
       ]),
     );
   }
