@@ -8,15 +8,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter testing',
+        title: 'Flutter controller testing',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
         home: Scaffold(
           appBar: AppBar(
-            title: const Text('Flutter testing'),
+            title: const Text('Flutter controller testing'),
           ),
-          body: Hello(),
+          body: const Hello(),
         ));
   }
 }

@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MisiónTIC 2022',
+      title: 'Converter',
       theme: ThemeData(
         colorScheme: const ColorScheme.light(
           primary: Color(0xff4264b4),
@@ -17,7 +17,7 @@ class App extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('MisiónTIC 2022 - Móvil'),
+          title: const Text('Converter'),
         ),
         body: const Center(
           child: Converter(),
