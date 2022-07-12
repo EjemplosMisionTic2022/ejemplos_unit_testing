@@ -1,8 +1,5 @@
 # Examples of the use of Testing on Flutter
 
-- BinaryCalculator: Binary calculator app without state management, with unit testing.
-- Counter
-
-- Flutter base project (Clean Architecture), with unit testing.
-
-- Testing_controllers: A simple proyect with state management, widget and integration test.
+- binary_decimal_converter: Un conversos binario-decimal con pruebas unitarias, widgets y de integración.
+- counter_app: Proyecto base de Flutter (Clean Architecture), con unit testing.
+- testing_controllers: Un proyecto en el que se muestra cómo realizar un widget test con controladores.
