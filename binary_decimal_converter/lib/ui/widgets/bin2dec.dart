@@ -32,6 +32,7 @@ class _State extends State<Bin2Dec> {
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.secondary,
                   fontSize: 35),
+              key: const Key('binary'),
             ),
           ),
           Container(
@@ -44,6 +45,7 @@ class _State extends State<Bin2Dec> {
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.secondary,
                   fontSize: 35),
+              key: const Key('decimal'),
             ),
           ),
           Expanded(
