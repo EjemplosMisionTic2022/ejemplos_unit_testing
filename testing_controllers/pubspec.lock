@@ -188,7 +188,7 @@ packages:
       name: get
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.3.8"
+    version: "4.6.5"
   glob:
     dependency: transitive
     description:
@@ -237,7 +237,7 @@ packages:
     source: hosted
     version: "1.7.0"
   mockito:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: mockito
       url: "https://pub.dartlang.org"
